@@ -1,8 +1,8 @@
 pipeline {
     agent any
-
-    tools {nodejs "node"}
-
+  tools {
+    jenkins.plugins.nodejs.tools.NodeJSInstallation '10.16.3'
+  }
     environment {
         CHROME_BIN = '/bin/google-chrome'
     }
