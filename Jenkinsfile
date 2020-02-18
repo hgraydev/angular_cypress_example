@@ -4,7 +4,7 @@ pipeline {
   tools {nodejs "node"}
  
   stages {
-    stage('Example') {
+    stage('Dependencies') {
       steps {
         sh 'npm install'
       }
