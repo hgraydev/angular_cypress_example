@@ -1,7 +1,7 @@
 pipeline {
   agent any
  
-  tools {nodejs "/var/jenkins_home/tools/jenkins.plugins.nodejs.tools.NodeJSInstallation/node"}
+  tools {nodejs "node"}
  
   stages {
     stage('Dependencies') {
