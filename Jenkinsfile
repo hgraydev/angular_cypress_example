@@ -53,6 +53,8 @@ pipeline {
                 autoResolveIssue: false,
                 autoUnlinkIssue: false,
             )
+                   ]
+)
         }
     }
 }
