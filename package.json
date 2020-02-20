@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "tslint ./src/**/*.ts -t verbose",
     "start": "ng serve",
-    "test": "./node_modules/jasmine-xml-reporter/bin/jasmine.js --junitreport --output=shippable/testresults/",
+    "test": "./node_modules/jasmine-xml-reporter/bin/jasmine.js --junitreport --output=result.xml",
     "build": "ng build --prod"
   },
   "keywords": [],
